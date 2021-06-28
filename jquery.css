@@ -1,0 +1,22 @@
+.container{
+    visibility:hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+
+.container > .div1{
+    background-color: rgb(7, 133, 126);
+    width: 200px;
+    height: 100px;
+    font-size: x-large;
+}
+
+.but1{
+    background-color: rgb(172, 53, 53);
+    width: 200px;
+    height: 100px;
+}
+

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Week 12</title>
+   <link rel="stylesheet" href="jquery.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   <script src="jquery.js"></script>
+   <script>
+       $(document).ready(function(){
+           $("button").click(function(){
+               $("div").css("visibility", "visible");
+           });
+       });
+   </script>
+</head>
+<body>
+    <div class="container" id="cont">
+        <div class="div1" >MENU 1 </div>
+        <br>
+            <div class="div1">MENU 2</div>
+            <br>
+                <div class="div1">MENU 3</div>
+                <br>
+                <div class="div1">MENU 4</div>
+            </div> 
+
+            <button class="but1" id="click">CLICK TO OPEN MENU</button>
+            
+            
+
+    </div>
+</body>
+</html>
